@@ -1,0 +1,24 @@
+{
+  "name": "jobpbackend",
+  "version": "1.0.0",
+  "description": "developing the engine of jobp app in Vanilla JS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szdenes/jobpbackend.git"
+  },
+  "author": "szdenes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szdenes/jobpbackend/issues"
+  },
+  "homepage": "https://github.com/szdenes/jobpbackend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
