@@ -1,7 +1,6 @@
 const mongodb = require('mongodb')
 const dotenv = require('dotenv')
 const app = require('./app')
-const router = require('./router')
 dotenv.config()
 
 mongodb.connect(
@@ -18,6 +17,6 @@ mongodb.connect(
     app.listen(process.env.PORT)
 
   }
-
+  
 )
-
+app()

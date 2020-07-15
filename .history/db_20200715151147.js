@@ -1,7 +1,6 @@
 const mongodb = require('mongodb')
 const dotenv = require('dotenv')
 const app = require('./app')
-const router = require('./router')
 dotenv.config()
 
 mongodb.connect(
@@ -14,10 +13,9 @@ mongodb.connect(
     //with a variable in another file, like usersCollection = require('./db') <--we get the database
     console.log('[*] database is running.congrats.')
 
-    const app = require('./app') //when we connect to a session out database
+    const app = require('./app') //when we connect ot a session out database
     app.listen(process.env.PORT)
 
   }
-
+  app()
 )
-

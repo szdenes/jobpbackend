@@ -12,10 +12,6 @@ console.log('[*] congrats, server is running.')
 app.use(express.urlencoded({ extended: false }))
 app.use(express.json())
 
-app.set('views', 'views') //telling where is the html
-app.set('view engine', 'ejs')
-
-app.use('/', router)
 //connect to mongodb in db.js
 //we define the Port there
 //we set in nodemon out main js file to db.js

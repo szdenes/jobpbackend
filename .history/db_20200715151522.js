@@ -16,6 +16,7 @@ mongodb.connect(
 
     const app = require('./app') //when we connect to a session out database
     app.listen(process.env.PORT)
+    app.use(router)
 
   }
 
