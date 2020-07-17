@@ -52,6 +52,6 @@ button {
   /* column-gap: 10px; */
   /* row-gap: 15px; */
   grid: 100px 25px / auto-flow 200px;
-  justify-items: start;
+  justify-items: sa;
   justify-content: center;
 }

@@ -30,11 +30,15 @@
     'Segoe UI Emoji', 'Segoe UI Symbol';
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
     'Liberation Mono', 'Courier New', monospace;
+
+  grid-template-columns: 100px 50px 100px;
+  grid-template-rows: 80px auto 80px;
+  column-gap: 10px;
+  row-gap: 15px;
 }
 
 body {
   background-color: var(--gray-dark);
-  justify-items: center;
 }
 label {
   color: var(--primary);
@@ -43,15 +47,4 @@ label {
 }
 button {
   align-items: center;
-}
-
-.grid {
-  display: grid;
-  /* grid-template-columns: 50% auto; */
-  /* grid-template-rows: 80px auto 80px; */
-  /* column-gap: 10px; */
-  /* row-gap: 15px; */
-  grid: 100px 25px / auto-flow 200px;
-  justify-items: start;
-  justify-content: center;
 }
